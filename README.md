@@ -351,9 +351,6 @@ Mini-Processor/
 │   ├── program_beq_taken.txt
 │   └── program_bne.txt
 │
-├── Simulation/
-│   └── ModelSim waveforms
-│
 ├── Documentation/
 │   └── Project Documentation.pdf
 │
