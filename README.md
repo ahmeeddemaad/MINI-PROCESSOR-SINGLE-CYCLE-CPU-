@@ -96,7 +96,7 @@ The two most significant bits `[15:14]` select the instruction class.
 
 ```text
 [15:14] [13:10] [9:8] [7:6] [5:4] [3:0]
-   00     ALU_OP   rd    rs1    rs2   Reserved
+   00   ALU_OP   rd    rs1   rs2  Reserved
 ```
 
 Example:
@@ -108,8 +108,8 @@ ADD R2, R0, R1
 ## 🔹 I-Type
 
 ```text
-[15:14] [13:12] [11:4] [3:0]
-   01      rd     Immediate Reserved
+[15:14] [13:12]   [11:4]    [3:0]
+   01     rd    Immediate  Reserved
 ```
 
 Implemented I-Type instruction:
